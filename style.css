@@ -1,0 +1,93 @@
+*{padding: 0;margin: 0;}
+.container{height: 100vh;
+           width: 100vw;
+           color:#444;
+           background: ;
+           display: flex;
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+ }
+ form{ 
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      padding: 2vw 4vw;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+  }
+  form h3{
+  	      font-weight: 800;
+  	      margin-bottom: 20px;
+  }
+  form input, form textarea{
+  	border: 0;
+  	margin: 10px 0;
+  	padding: 20px;
+  	outline: none;
+  	background: #D0F5BE;
+  	font-size: 16px;
+  }
+.truth,.yes, .no{
+	padding-top: 25%;
+}
+h2{font-size: 72px;margin-bottom: 30px;}
+.truth span{color: #D3D04F;}
+.truth a{text-decoration: none;
+      background: #DD58D6;
+      padding: 5px;
+      margin: 5px 10px;
+      border: 3px solid #ddd;border-radius:10px;
+  }
+#no{color:red;
+    background: #E1AEFF;
+    padding: 20px;}
+#yes{color: orange;
+      background: #A2FF86;
+      padding: 20px;}
+form h2{
+  	      font-weight: 800;
+  	      margin-bottom: 20px;
+  }
+#open{color: black;
+      background:#E1AEFF;
+      padding: 40px;
+      text-align: center;
+      margin-left: auto;
+  margin-right: auto;
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 30%;
+
+}
+img{height: 20px;
+	width: 30px;
+     animation: heart 4s linear infinite;
+     }
+
+     @keyframes heart{
+     	100%{transform: scale(.5);}
+     	50%{transform: scale(1.5);}
+     	100%{transform: scale(.5);}
+     	50%{transform: scale(1.5);}
+     }
+.container{height: 100vh;
+           width: 100vw;
+           color:#444;
+           background:#FFECEC;
+           text-align: center;
+}
+.truth,.openconfession{
+	padding-top: 25%;
+}
+
+                
+
+                
+
+     
